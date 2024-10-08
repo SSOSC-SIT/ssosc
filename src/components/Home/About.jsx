@@ -18,7 +18,7 @@ const About = () => {
           <h1 className="font-montserratB text-[80px] md:text-[48px] lg:text-[64px]text-9xl md:text-5xl my-5 text-[#ff7b01]">
             What we do ?
           </h1>
-          <p className=" about font-montserratR text-xl text-justify leading-relaxed">
+          <p className=" about font-montserratR text-xl text-justify leading-relaxed text-white">
             Introducing SSOSC, a hub for the brightest minds to explore, create,
             and contribute to the open-source ecosystem. Powered by the passion
             for technology and a vision to drive change, SSOSC stands at the
