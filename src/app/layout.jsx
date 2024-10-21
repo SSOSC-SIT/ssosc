@@ -18,7 +18,15 @@ export const metadata = {
   title: "SSOSC",
   description:
     " Join the Srinivas Students Open Source Community (SSOSC) – a vibrant tech hub for students passionate about open-source development, collaboration, and innovation. Explore real-world projects, participate in hackathons, attend workshops, and grow your skills in an inclusive environment. Whether you're a beginner or a seasoned developer, SSOSC is the place to learn, contribute, and build your future in tech.",
-};
+    images: [
+      {
+        url: '/SSOSC.LOGO-WHITE.png',
+        width: 1200,
+        height: 630,
+        alt: 'SSOSC',
+      },
+    ]
+  };
 
 export default function RootLayout({ children }) {
   return (
@@ -33,3 +41,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+

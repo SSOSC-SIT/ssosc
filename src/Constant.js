@@ -96,6 +96,14 @@ const teamMembers = [
 
 const Events = [
   {
+    title: "OPEN SOURCE & HACKTOBERFEST",
+    description:
+      "🚀Join us for an exclusive online session organized by the Srinivas Institute of Technology's Open Source Club (SSOSC) in collaboration with Niveus Solutions. Whether you're new to open source or looking to sharpen your contribution skills, this event will guide you through everything you need to know about Hacktoberfest and the process of contributing to open-source projects.🚀",
+    imageUrl: "/event/HacktoberFest.jpg",
+    tag1: "HacktoberFest",
+    tag2: "GIT",
+  },
+  {
     title: "BUG HUNT",
     description:
       "PARTICIPANTS ARE GIVEN A PIECE OF CODE THAT CONTAINS BUGS. THE CHALLENGE IS TO FIND AND FIX AS MANY BUGS AS POSSIBLE WITHIN A SET TIME LIMIT. THIS CAN BE EXTENDED TO INCLUDE SECURITY VULNERABILITIES AS WELL.",
@@ -107,16 +115,16 @@ const Events = [
   {
     title: "REVERSE CODING",
     description:
-    "PROVIDE THE PARTICIPANTS WITH THE OUTPUT OF A PROGRAM AND CHALLENGE THEM TO REVERSE-ENGINEER IT TO CREATE THE ORIGINAL PROGRAM THAT PRODUCES THE GIVEN OUTPUT.",
+      "PROVIDE THE PARTICIPANTS WITH THE OUTPUT OF A PROGRAM AND CHALLENGE THEM TO REVERSE-ENGINEER IT TO CREATE THE ORIGINAL PROGRAM THAT PRODUCES THE GIVEN OUTPUT.",
     imageUrl: "/event/ReverseCoding.jpg",
     tag1: "Findthelogic",
     tag2: " Reversecode",
   },
-  
+
   {
     title: "CODE RELAY",
     description:
-    "TEAMS TAKE TURNS CODING IN A RELAY FORMAT. EACH MEMBER GETS 5-10 MINUTES TO CONTRIBUTE TO THE CODE BEFORE PASSING IT TO THE NEXT MEMBER. THE OBJECTIVE IS TO COLLABORATIVELY BUILD A SMALL PROJECT OR SOLVE A PROBLEM.",
+      "TEAMS TAKE TURNS CODING IN A RELAY FORMAT. EACH MEMBER GETS 5-10 MINUTES TO CONTRIBUTE TO THE CODE BEFORE PASSING IT TO THE NEXT MEMBER. THE OBJECTIVE IS TO COLLABORATIVELY BUILD A SMALL PROJECT OR SOLVE A PROBLEM.",
     imageUrl: "/event/coderelay.jpg",
     tag1: "Runcode",
     tag2: "Teams",
