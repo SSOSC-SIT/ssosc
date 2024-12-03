@@ -95,39 +95,43 @@ const teamMembers = [
 ];
 
 const Events = [
+  // {
+  //   title: "bughunt",
+  //   description:
+  //     "PARTICIPANTS ARE GIVEN A PIECE OF CODE THAT CONTAINS BUGS. THE CHALLENGE IS TO FIND AND FIX AS MANY BUGS AS POSSIBLE WITHIN A SET TIME LIMIT. THIS CAN BE EXTENDED TO INCLUDE SECURITY VULNERABILITIES AS WELL.",
+  //   imageUrl: "/event/BugHunt.jpg",
+  //   tag1: "bugHunt",
+  //   tag2: "code",
+  //   slug: "bug-hunt", // Added slug
+  // },
   {
-    title: "OPEN SOURCE & HACKTOBERFEST",
+    title: "SRINATHON",
     description:
-      "🚀Join us for an exclusive online session organized by the Srinivas Institute of Technology's Open Source Club (SSOSC) in collaboration with Niveus Solutions. Whether you're new to open source or looking to sharpen your contribution skills, this event will guide you through everything you need to know about Hacktoberfest and the process of contributing to open-source projects.🚀",
-    imageUrl: "/event/HacktoberFest.jpg",
-    tag1: "HacktoberFest",
-    tag2: "GIT",
-  },
-  {
-    title: "BUG HUNT",
-    description:
-      "PARTICIPANTS ARE GIVEN A PIECE OF CODE THAT CONTAINS BUGS. THE CHALLENGE IS TO FIND AND FIX AS MANY BUGS AS POSSIBLE WITHIN A SET TIME LIMIT. THIS CAN BE EXTENDED TO INCLUDE SECURITY VULNERABILITIES AS WELL.",
-    imageUrl: "/event/BugHunt.jpg",
-    tag1: "bugHunt",
+      `🌟 Hello Tech Enthusiasts!
+We are excited to announce Srinathon, a 24-hour national-level Hackathon organized by Srinivas Institute of Technology in association with SSOSC, EDP, and Yukthi Cell! Mark your calendars for December 10th and 11th, 2024!
+`,
+    imageUrl: "/event/srinathon.jpg",
+    tag1: "HACKATHON",
     tag2: "code",
+    slug: "hackathon", // Added slug
   },
-
   {
     title: "REVERSE CODING",
     description:
-      "PROVIDE THE PARTICIPANTS WITH THE OUTPUT OF A PROGRAM AND CHALLENGE THEM TO REVERSE-ENGINEER IT TO CREATE THE ORIGINAL PROGRAM THAT PRODUCES THE GIVEN OUTPUT.",
-    imageUrl: "/event/ReverseCoding.jpg",
+      "PROVIDE THE PARTICIPANTS WITH THE OUTPUT OF A PROGRAM AND CHALLENGE THEM TO REVERSE-ENGINEER IT TO CREATE THE ORIGINAL PROGRAM THAT PRODUCES THE GIVEN OUTPUT.",
+    imageUrl: "/event/coderelay.jpg",
     tag1: "Findthelogic",
-    tag2: " Reversecode",
+    tag2: "Reversecode",
+    slug: "reverse-coding", // Added slug
   },
-
   {
     title: "CODE RELAY",
     description:
-      "TEAMS TAKE TURNS CODING IN A RELAY FORMAT. EACH MEMBER GETS 5-10 MINUTES TO CONTRIBUTE TO THE CODE BEFORE PASSING IT TO THE NEXT MEMBER. THE OBJECTIVE IS TO COLLABORATIVELY BUILD A SMALL PROJECT OR SOLVE A PROBLEM.",
-    imageUrl: "/event/coderelay.jpg",
+      "TEAMS TAKE TURNS CODING IN A RELAY FORMAT. EACH MEMBER GETS 5-10 MINUTES TO CONTRIBUTE TO THE CODE BEFORE PASSING IT TO THE NEXT MEMBER. THE OBJECTIVE IS TO COLLABORATIVELY BUILD A SMALL PROJECT OR SOLVE A PROBLEM.",
+    imageUrl: "/event/ReverseCoding.jpg",
     tag1: "Runcode",
     tag2: "Teams",
+    slug: "code-relay", // Added slug
   },
 ];
 

@@ -67,7 +67,7 @@ function HorizontailScroll() {
             <Image
               width={800}
               height={800}
-              src="/event/BugHunt.jpg"
+              src="/event/srinathon.jpg"
               alt="2ndimage"
               className="max-w-[100vw] max-h-[60vh] sm:max-h-[70vh] md:max-h-[80vh] lg:max-h-[90vh] xl:max-h-[80vh] m-auto object-contain"
             />
